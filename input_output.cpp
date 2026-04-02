@@ -1,10 +1,16 @@
 /*
     Program: Input and Output in C++
     Description:
-    Demonstrates how to take input and display output using:
-    - cin
-    - cout
-    - getline
+    This program shows how to take input from the user and display output.
+
+    - cin      -> used to take input from the user
+    
+    - cout     -> used to print/output something on the screen
+    
+    - getline  -> used to take full line input (including spaces)
+      syntax   -> getline(cin, string_name);
+      
+    - endl     -> used to move to the next line
 */
 
 #include<iostream>
