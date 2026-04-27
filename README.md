@@ -1,2 +1,20 @@
 # cpp_fundamentals
-A structured collection of C++ basics covering fundamental programming concepts from input-output to recursion, with problem-based learning and clean code implementations.
+# C++ Fundamentals
+
+A structured collection of C++ programs covering fundamental concepts from input-output to OOP, with problem-based learning and clean code implementations.
+
+## Topics Covered
+- Input / Output
+- Data Types
+- Operators
+- Conditionals
+- Loops
+- Functions
+- Arrays
+- Recursion
+- Strings
+- Pointers
+- Structures
+- OOP Concepts
+
+This repository is built to strengthen C++ fundamentals.
