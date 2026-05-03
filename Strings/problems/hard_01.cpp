@@ -20,7 +20,7 @@ int main() {
     int freq[26] = {0};  
 
     for(int i = 0; i < s.length(); i++) {
-        char ch = tolower(s[i]);   
+        char ch = tolower(s[i]);   // used to convert uppercase to lowercase
 
         if(ch >= 'a' && ch <= 'z') {
             freq[ch - 'a']++;
