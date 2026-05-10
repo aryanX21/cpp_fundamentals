@@ -53,12 +53,6 @@ class Student : virtual public Person{
     Student(string name, int age, int roll) : Person(name, age){
            this->roll = roll;
     }
-
-    void getinfo(){
-        cout<<"Name: "<<name<<endl;
-        cout<<"Age: "<<age<<endl;
-           
-    }
 };
 
 class Teacher : virtual public Person{
@@ -66,10 +60,8 @@ class Teacher : virtual public Person{
     string subject;
 
     Teacher(string name, int age, string subject) : Person(name, age){
-
-        this->subject = subject;
-    }
- 
+           this->subject = subject;
+    } 
 };
 
 class Display_info : public Teacher, public Student{
