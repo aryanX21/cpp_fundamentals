@@ -156,7 +156,7 @@ int main() {
         }
     }
     
-    if(isprime){
+    if(isprime && n > 1){
         cout<<n<<" is a Prime number"<<endl;
     }
     else{
