@@ -263,18 +263,241 @@ instead of looping using digit count.
 
 ---
 
-# Final Review
+# Section C — Review & Analysis
 
-The overall code quality is good for C++ fundamentals practice. The programs are logically correct, properly formatted, and written in a clean beginner-friendly style.
+## Overall Performance
 
-The solutions focus on implementing the required concepts directly, which is the correct approach during the fundamentals stage.
+Section C focuses on pattern printing problems using:
+
+* Nested loops
+* Logic building
+* Spacing management
+* Number patterns
+* Symmetry handling
+
+The solutions demonstrate a good understanding of:
+
+* `for` loops
+* Nested loop structure
+* Pattern visualization
+* Conditional logic inside loops
 
 ---
 
-# Final Verdict
+# Problem-wise Analysis
 
-✅ Most programs are fully correct
-✅ Logic implementation is strong
-✅ Code readability is good
-✅ Proper understanding of loops and conditions shown
-✅ Minor improvements possible in edge-case handling and optimization
+## 16. Right Triangle Star Pattern
+
+### Concepts Used
+
+* Nested loops
+* Row-column relationship
+
+### Analysis
+
+This is the most fundamental pattern problem and was implemented correctly.
+
+The outer loop controls:
+
+* number of rows
+
+The inner loop controls:
+
+* number of stars printed in each row
+
+### Difficulty
+
+Easy
+
+### Logic Understanding
+
+Good understanding of:
+
+```cpp
+j < i + 1
+```
+
+which creates increasing stars row by row.
+
+---
+
+## 17. Number Increasing Triangle
+
+### Concepts Used
+
+* Nested loops
+* Number repetition
+
+### Analysis
+
+Correct implementation of repeating row number pattern.
+
+The expression:
+
+```cpp
+i + 1
+```
+
+was used properly to print:
+
+```txt
+1
+22
+333
+```
+
+### Difficulty
+
+Easy
+
+### Logic Understanding
+
+Good understanding of row-based printing.
+
+---
+
+## 18. Reverse Number Triangle
+
+### Concepts Used
+
+* Reverse pattern logic
+* Nested loops
+
+### Analysis
+
+Correct reverse triangular structure.
+
+The expression:
+
+```cpp
+n - j + 1
+```
+
+was used effectively to generate increasing numbers while decreasing rows.
+
+### Difficulty
+
+Easy to Medium
+
+### Logic Understanding
+
+Good observation of:
+
+* decreasing columns
+* increasing printed values
+
+---
+
+## 19. Number Palindrome Pyramid
+
+### Concepts Used
+
+* Spaces
+* Increasing numbers
+* Decreasing numbers
+* Symmetry
+
+### Analysis
+
+This is a strong pattern problem because it combines:
+
+* left spacing
+* ascending sequence
+* descending sequence
+
+The logic for:
+
+```cpp
+12321
+```
+
+was implemented correctly using separate loops.
+
+### Difficulty
+
+Medium
+
+### Logic Understanding
+
+Good understanding of:
+
+* palindrome structure
+* pyramid alignment
+* symmetric patterns
+
+---
+
+## 20. Hollow Pyramid Pattern
+
+### Concepts Used
+
+* Hollow structures
+* Boundary conditions
+* Spaces and stars
+
+### Analysis
+
+This is one of the more important beginner pattern problems.
+
+Correctly handled:
+
+* first star
+* last star
+* full last row
+
+The condition:
+
+```cpp
+j == 1 || j == 2*i + 1
+```
+
+properly creates hollow sides.
+
+### Difficulty
+
+Medium
+
+### Logic Understanding
+
+Good use of:
+
+* conditional statements
+* hollow structure logic
+
+---
+
+## 21. Butterfly Pattern
+
+### Concepts Used
+
+* Symmetric pattern design
+* Upper half and lower half logic
+* Space management
+
+### Analysis
+
+Butterfly pattern combines:
+
+* increasing stars
+* decreasing spaces
+* mirror symmetry
+
+This pattern is important for improving:
+
+* visualization
+* loop control
+* symmetry logic
+
+### Difficulty
+
+Medium to Hard
+
+### Logic Understanding
+
+Requires strong control over:
+
+* multiple nested loops
+* mirrored output
+* upper and lower halves
+
+---
