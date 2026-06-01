@@ -1,12 +1,12 @@
 # Bonus Challenge Problems (Optional)
 
-
 ## 31. Palindrome String
 
 Check whether string is palindrome.
 
----
+### Solution
 
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
@@ -42,14 +42,17 @@ int main() {
    
     return 0;
 }
+```
 
+---
 
 ## 32. Swap Using Pointers
 
 Swap two variables using pointers.
 
----
+### Solution
 
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -69,17 +72,22 @@ int main() {
     *ptr1 = *ptr2;
     *ptr2 = temp;
     
-     cout<<"After swap: "<<endl;
+    cout<<"After swap: "<<endl;
     cout<<"a: "<<a<<" b: "<<b<<endl;
     
     return 0;
 }
+```
+
+---
 
 ## 33. Factorial Using Recursion
 
 Implement recursive factorial function.
 
----
+### Solution
+
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -103,6 +111,9 @@ int main() {
     
     return 0;
 }
+```
+
+---
 
 ## 34. Power Using Recursion
 
@@ -112,8 +123,9 @@ Implement:
 x^n = x \times x^{n-1}
 ]
 
----
+### Solution
 
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -143,12 +155,17 @@ int main() {
     
     return 0;
 }
+```
+
+---
 
 ## 35. Reverse Array Using Pointers
 
 Reverse complete array using pointer arithmetic.
 
----
+### Solution
+
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -192,6 +209,9 @@ int main() {
     
     return 0;
 }
+```
+
+---
 
 ## 36. Dynamic Array Using new
 
@@ -207,8 +227,9 @@ and free memory using:
 delete[]
 ```
 
----
+### Solution
 
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -233,13 +254,15 @@ int main(){
         cout<<arr[i]<<" ";
     }
     
-    
     delete[] arr;
     
     cout<<"\nMemory released"<<endl;
     
     return 0;
 }
+```
+
+---
 
 ## 37. Student Structure Program
 
@@ -251,8 +274,9 @@ Create structure containing:
 
 Display all details.
 
----
+### Solution
 
+```cpp
 #include<iostream>
 #include<string>
 using namespace std;
@@ -299,6 +323,9 @@ int main(){
     
     return 0;
 }
+```
+
+---
 
 ## 38. OOP Mini Program
 
