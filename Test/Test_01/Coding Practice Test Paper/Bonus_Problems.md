@@ -341,3 +341,59 @@ Include:
 * Destructor
 * Member function
 * Object creation
+
+### Solution
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Student{
+  
+  private:
+  string name;
+  int roll_no, age;
+  
+  public:
+  
+  Student(){
+      cout<<"Please Enter Student Information\n"<<endl;
+  }
+  
+  void get_info(){
+      cout<<"Enter Name:  ";
+      getline(cin,name);
+      
+      cout<<"Enter Roll number: ";
+      cin>>roll_no;
+      
+      cout<<"Enter Age: ";
+      cin>>age;
+      
+      cout<<endl;
+  }
+  
+  void display_info(){
+      
+      cout<<"--- Student Information ---\n\n";
+      
+      cout<<"Name: "<<name<<endl;
+      cout<<"Roll number: "<<roll_no<<endl;
+      cout<<"Age: "<<age<<endl;
+  }
+  
+  ~Student(){
+      cout<<"\nThank you"<<endl;
+  }
+};
+
+int main() {
+    
+    Student s;
+    s.get_info();
+    s.display_info();
+    
+    return 0;
+}
+```
