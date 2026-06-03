@@ -501,3 +501,366 @@ Requires strong control over:
 * upper and lower halves
 
 ---
+
+# Section D — Functions
+
+## Overall Review
+
+The programs demonstrate a good understanding of function creation, function calling, parameter passing, return values, and code reusability.
+
+The solutions are simple, readable, and appropriately structured for the level of the questions.
+
+---
+
+## Question-wise Analysis
+
+### 22. Square and Cube Using Functions
+
+✅ Correct
+
+* Functions are properly defined and called.
+* Logic is correct.
+* Output is accurate.
+
+### Possible Improvement
+
+The functions could return values instead of directly printing them, but this was not required by the question.
+
+---
+
+### 23. Even/Odd Using Function
+
+✅ Correct
+
+* Correct use of functions.
+* Proper condition checking.
+* Output is accurate.
+
+### Possible Improvement
+
+The question mentions returning Even/Odd. A function returning a value instead of directly printing could be considered, but the current solution is acceptable.
+
+---
+
+### 24. Prime Number Using Function
+
+✅ Correct
+
+* Proper use of boolean return type.
+* Correct handling of numbers less than or equal to 1.
+* Efficient prime-checking logic used.
+
+Good implementation of:
+
+```cpp
+i * i <= n
+```
+
+which reduces unnecessary iterations.
+
+---
+
+### 25. Permutation and Combination
+
+✅ Correct
+
+* Factorial function is reusable.
+* Formula implementation is correct.
+* Functions are properly separated.
+
+### Possible Improvement
+
+Input validation could be added for cases such as:
+
+```txt
+r > n
+```
+
+to prevent invalid calculations.
+
+---
+
+# Section D Summary
+
+| Category         | Review    |
+| ---------------- | --------- |
+| Function Usage   | Strong    |
+| Code Reusability | Good      |
+| Logic            | Correct   |
+| Readability      | Excellent |
+
+---
+
+# Section E — Arrays
+
+## Overall Review
+
+The programs demonstrate a good understanding of arrays, indexing, traversal, searching, sorting, and basic array manipulation techniques.
+
+The logic is generally correct and easy to follow.
+
+---
+
+## Question-wise Analysis
+
+### 26. Largest Element in Array
+
+✅ Correct
+
+* Proper array traversal.
+* Correct maximum element logic.
+
+---
+
+### 27. Reverse an Array
+
+✅ Correct
+
+* In-place reversal achieved.
+* No extra array used.
+* Correct swapping logic.
+
+---
+
+### 28. Linear Search
+
+⚠️ Minor Issue
+
+The variable:
+
+```cpp
+bool found;
+```
+
+is declared but not initialized.
+
+It should ideally be:
+
+```cpp
+bool found = false;
+```
+
+Otherwise the program may produce unpredictable results if the element is not found.
+
+Apart from this, the searching logic is correct.
+
+---
+
+### 29. Second Largest Element
+
+✅ Mostly Correct
+
+* Correct approach used.
+* Largest and second-largest values are identified properly.
+
+### Possible Improvement
+
+Cases such as:
+
+```txt
+5 5 5 5
+```
+
+or
+
+```txt
+10
+```
+
+(single-element array)
+
+are not specifically handled.
+
+---
+
+### 30. Bubble Sort
+
+✅ Correct
+
+* Proper nested loop structure.
+* Correct swapping logic.
+* Bubble Sort implemented successfully.
+
+### Possible Improvement
+
+An optimization flag could be added to stop execution when the array is already sorted.
+
+---
+
+# Section E Summary
+
+| Category        | Review |
+| --------------- | ------ |
+| Array Traversal | Strong |
+| Searching       | Good   |
+| Sorting         | Good   |
+| Code Structure  | Clean  |
+
+---
+
+# Bonus Challenge Problems
+
+## Overall Review
+
+The bonus problems demonstrate understanding of:
+
+* Strings
+* Recursion
+* Pointers
+* Dynamic Memory Allocation
+* Structures
+* Object-Oriented Programming
+
+The solutions are well-organized and show progression beyond basic C++ concepts.
+
+---
+
+## Question-wise Analysis
+
+### 31. Palindrome String
+
+✅ Correct
+
+* String reversal logic is correct.
+* Case-insensitive comparison implemented.
+* Good use of string manipulation.
+
+### Possible Improvement
+
+Spaces and special characters are not ignored.
+
+Example:
+
+```txt
+Never Odd Or Even
+```
+
+would not be treated as a palindrome.
+
+---
+
+### 32. Swap Using Pointers
+
+✅ Correct
+
+* Pointer usage is correct.
+* Values successfully swapped through dereferencing.
+
+---
+
+### 33. Factorial Using Recursion
+
+✅ Correct
+
+* Proper base case.
+* Correct recursive call.
+
+Good recursive implementation.
+
+---
+
+### 34. Power Using Recursion
+
+✅ Correct
+
+* Correct recursive relation.
+* Proper handling of power 0 and power 1.
+
+### Possible Improvement
+
+Negative powers are not handled.
+
+---
+
+### 35. Reverse Array Using Pointers
+
+✅ Correct
+
+* Proper pointer arithmetic.
+* Correct swapping logic.
+* Array reversed successfully.
+
+---
+
+### 36. Dynamic Array Using `new`
+
+✅ Correct
+
+* Dynamic memory allocated correctly.
+* Memory released correctly using:
+
+```cpp
+delete[]
+```
+
+Good memory management practice.
+
+---
+
+### 37. Student Structure Program
+
+✅ Correct
+
+* Proper structure definition.
+* Good organization of student information.
+* Percentage calculation is correct.
+
+### Possible Improvement
+
+Validation currently checks:
+
+```cpp
+total > 300
+```
+
+instead of checking whether individual subject marks exceed 100.
+
+---
+
+### 38. OOP Mini Program
+
+✅ Correct
+
+* Constructor included.
+* Destructor included.
+* Member functions implemented.
+* Object creation performed correctly.
+* Encapsulation used through private data members.
+
+This program satisfies all requirements of the question.
+
+---
+
+# Final Assessment
+
+The solutions across Sections D, E, and Bonus Problems are logically correct and demonstrate a solid understanding of intermediate C++ concepts.
+
+Strengths observed include:
+
+* Good code readability
+* Proper indentation and formatting
+* Correct use of functions
+* Understanding of arrays and pointers
+* Successful implementation of recursion
+* Proper use of structures and classes
+* Correct dynamic memory handling
+
+---
+
+# Final Verdict
+
+✅ Most programs are fully correct
+
+✅ Strong understanding of Functions
+
+✅ Good understanding of Arrays
+
+✅ Correct use of Pointers and Recursion
+
+✅ Dynamic Memory Management implemented correctly
+
+✅ Structure and OOP concepts understood well
+
+⚠️ Minor improvements possible in input validation, edge-case handling, and variable initialization
+
+Overall, the code quality is good and demonstrates a solid foundation in C++ programming beyond the fundamentals.
