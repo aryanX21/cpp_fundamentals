@@ -116,7 +116,7 @@ void update(){
 
     int roll_no;
 
-    cout<<"Enter the Student's roll number you want to update: ";
+    cout<<"\nEnter the Student's roll number you want to update: ";
     cin>>roll_no;
 
     bool found = false;
@@ -140,7 +140,7 @@ void del(){
     int roll_no;
     bool found = false;
 
-    cout<<"Enter the Student's roll number you want to delete: ";
+    cout<<"\nEnter the Student's roll number you want to delete: ";
     cin>>roll_no;
 
     for(int i = 0; i < total_students; i++){
